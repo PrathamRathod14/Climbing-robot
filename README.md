@@ -4,7 +4,7 @@ GeckoGrip is a climbing-robot simulation project that demonstrates a Unitree Go2
 
 ## Demo Video
 
-[Watch the climbing robot demo video on Google Drive](https://drive.google.com/file/d/1YdWoWxYY0DKg8GgpMOOHjo5t18DwjKyL/view)
+[Watch the climbing robot demo video](https://drive.google.com/file/d/1YdWoWxYY0DKg8GgpMOOHjo5t18DwjKyL/view)
 
 ## Project Overview
 
