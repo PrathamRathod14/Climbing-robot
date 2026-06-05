@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Go2-Inspired Wall Climber</title>
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <span class="eyebrow">Wall Climb Lab</span>
+        <h1>Quadruped Climbing Test</h1>
+      </div>
+      <div class="status-pill">
+        <span class="pulse"></span>
+        <span id="mode-label">Climbing</span>
+      </div>
+    </header>
+
+    <div class="hud">
+      <div>
+        <strong id="step-label">Scanning route</strong>
+        <span id="status-label">Quadruped gait planner online</span>
+        <div class="metrics" aria-label="Simulation metrics">
+          <span>Height <b id="height-value">0.0m</b></span>
+          <span>Step <b id="gait-value">0</b></span>
+          <span>Foot <b id="active-foot-value">Stable</b></span>
+          <span>Load <b id="strain-value">0.00 (gravity: 0%)</b></span>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="play-toggle" type="button">Pause</button>
+        <button id="step-once" type="button">Step</button>
+        <button id="reset-sim" type="button">Reset</button>
+        <button id="randomize-wall" type="button">New Wall</button>
+      </div>
+    </div>
+    <canvas id="webgl"></canvas>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

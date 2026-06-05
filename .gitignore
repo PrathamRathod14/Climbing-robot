@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.blend1
+
+# Compiled Gazebo plugin
+*.so
+
+# Word doc (use the .md version instead)
+task-documentation.docx
+
+# Vite dev logs
+vite-dev.log
+vite-dev.err.log
+external/go2_description/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Binary/large files
+*.blend
+*.doc
+*.docx
+*.stl
+*.dae
+*.glb
+assets/
+public/*.glb
+models/
